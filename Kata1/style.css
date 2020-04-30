@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #393e46;
+  font-family: "Montserrat", sans-serif;
+  color: #ccc;
+  line-height: 150%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  margin: 50px 5px;
+  border-radius: 10px;
+}
+
+header {
+  color: #00adb5;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.kata-instruction {
+  margin-bottom: 20px;
+}
+
+.kata-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.kata-solution {
+  margin: 20px 0;
+}
+
+.kata-solution code {
+  font-weight: bold;
+}
+
+.test-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rule {
+  box-shadow: 2px 2px 5px rgba(0, 173, 181, 0.6);
+  padding: 10px;
+  margin: 5px;
+  width: 50vw;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+label {
+  color: #00adb5;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.input {
+  font-weight: bold;
+}
+
+.true {
+  color: #0a0;
+  font-weight: bold;
+}
+.false {
+  color: #e84a5f;
+  font-weight: bold;
+}
