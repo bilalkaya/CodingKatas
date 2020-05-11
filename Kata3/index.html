@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Coding Katas 3</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>Coding Katas #3</header>
+      <div class="kata-instruction">
+        <div class="kata-header">Printer Errors</div>
+        <div>
+          <p>
+          In a factory a printer prints labels for boxes. For one kind of boxes the printer has to use colors which, for the sake of simplicity, are named with letters from a to m.
+        </p>
+        <p>
+          The colors used by the printer are recorded in a control string. For example a "good" control string would be aaabbbbhaijjjm meaning that the printer used three times color a, four times color b, one time color h then one time color a...
+        </p>
+      <p>
+          Sometimes there are problems: lack of colors, technical malfunction and a "bad" control string is produced e.g. aaaxbbbbyyhwawiwjjjwwm with letters not from a to m.
+        </p>
+      <p>
+        You have to write a function printer_error which given a string will output the error rate of the printer as a string representing a rational whose numerator is the number of errors and the denominator the length of the control string. Don't reduce this fraction to a simpler expression.
+        </p>
+      <p>
+        The string has a length greater or equal to one and contains only letters from a to z.
+        </p>
+        </div>
+      </div>
+
+      <div class="kata-solution">
+        <p>You can use following template for your solution:</p>
+        <code>
+          function printerError(s){ <br>
+            // Your Code<br>
+          }
+        </code>
+      </div>
+
+      <div class="kata-test">
+        <div class="test-header">Test Your Code</div>
+        <div class="rule">
+          <div>
+            <label for=""> Input:</label>
+            <span class="input">printerError("aaabbbbhaijjjm")</span>
+          </div>
+          <div>
+            <label for=""> Output:</label>
+            <span class="true">"0 / 14"</span>
+          </div>
+        </div>
+        <div class="rule">
+          <div>
+            <label for=""> Input:</label>
+            <span class="input">printerError("aaaxbbbbyyhwawiwjjjwwm")</span>
+          </div>
+          <div>
+            <label for=""> Output:</label>
+            <span class="true">"8 / 22"</span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
